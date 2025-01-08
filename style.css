@@ -1,0 +1,165 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-image: url('bg-color.png');
+}
+.clock {
+    background: #ececec;
+    width: 300px;
+    height: 300px;
+    margin: 110px 530px;
+    border-radius: 50%;
+    border: 10px solid #080808;
+    position: relative;
+    box-shadow: 0 2vw 4vw -1vw rgba(0,0,0,0.8);
+    background-color: rgb(191, 80, 201);
+  }
+  .hour-hand {
+    position: absolute;
+    width: 4px;
+    height: 65px;
+    background: #000000;
+    top: 79px;
+    transform-origin: 50% 72px;
+    left: 50%;
+    margin-left: -2px;
+   
+  }
+  
+  .minute-hand {
+    position: absolute;
+    width: 4px;
+    height: 100px;
+    background: #000000;
+    top: 46px;
+    left: 50%;
+    margin-left: -2px;
+    transform-origin: 50% 105px;
+  }
+  
+  .second-hand {
+    position: absolute; 
+    width: 2px;
+    height: 120px;
+    background: rgb(91, 14, 214);
+    top: 26px;
+    left: 50%;
+    margin-left: -1px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    transform-origin: 50% 125px;
+  }
+  
+  span {
+    display: inline-block;
+    position: absolute;
+    color: #333;
+    font-size: 22px;
+    font-family: 'Poiret One';
+    font-weight: 700;
+  }
+  
+  .h12 {
+    top: 30px;
+    left: 50%;
+    margin-left: -9px;
+  }
+
+  .h3 {
+    top: 140px;
+    right: 30px;
+  }
+
+  .h6 {
+    bottom: 30px;
+    left: 50%;
+    margin-left: -5px;
+  }
+
+  .h9 {
+    left: 32px;
+    top: 140px;
+  }
+  
+  .diallines {
+    position: absolute;
+    width: 2px;
+    height: 15px;
+    background: #776f6f;
+    left: 50%;
+    margin-left: -1px;
+    transform-origin: 50% 150px;
+  }
+
+  .diallines:nth-of-type(5n) {
+    position: absolute;
+    width: 4px;
+    height: 25px;
+    background: #110e0e;
+    left: 50%;
+    margin-left: -1px;
+    transform-origin: 50% 150px;
+  }
+  
+.info {
+    position: absolute;
+    width: 120px;
+    height: 20px;
+    border-radius: 7px;
+    background: #ccc;
+    text-align: center;
+    line-height: 20px;
+    color: #0c0c0c;
+    font-size: 11px;
+    top: 200px;
+    left: 50%;
+    margin-left: -60px;
+    font-family: "Poiret One";
+    font-weight: 700;
+    letter-spacing: 3px;
+    margin-left: -60px;
+    left: 50%;
+  }
+
+  .date {
+      top: 80px;
+    }
+
+  .day {
+    top: 200px;
+  }
+
+  #clock {
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#date {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.digital-clock {
+    position: absolute;
+    padding-top: 320px;
+    top: 50%;
+    left: 51%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #000000;
+    font-size: 40px;
+    font-family: Orbitron;
+    letter-spacing: 7px;
+    
+}
+#text{
+    text-transform: uppercase;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 20px;
+    font-weight: 540;
+    background-color:rgb(191, 80, 201);
+}
